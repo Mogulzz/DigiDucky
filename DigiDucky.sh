@@ -20,7 +20,7 @@ if [ "$1" = "--help" -o "$1" = "-h" ]; then
     echo "Recommended use : ./DigiDucky.sh -i "
     echo -e "\t-h, --help          This will display this message"
     echo -e "\t-i, --interactive   The classic way to launch the script"
-    echo -e "\t-u, --update       This will update the different project "
+    echo -e "\t-u, --update        This will update the different project "
     echo -e "\t-r, --remove        This will remove all projects that were necessary for the program to function properly"
     echo "======================================================================"
 
