@@ -1,5 +1,5 @@
 # DigiDucky
-A Bash script that will convert a DuckyScript payload file into an arduino file, compile it and load it on a Digispark Attiny 85.
+A Bash script that will convert a DuckyScript payload file into an arduino file, compile it and load it on a Digispark ATTiny85.
 
 To do this, this program will download the three projects that will be necessary for its proper functioning
 * [DuckToolkit](https://github.com/kevthehermit/DuckToolkit), which was used to convert the duckyscript file into a binary file.
@@ -9,7 +9,7 @@ To do this, this program will download the three projects that will be necessary
 ## Requirements
 
 ### Hardware Requirements
-* A Digispark Attiny 85
+* A Digispark ATTiny85
 * A Duckyscript payload file 
 
 ### Software Requirements
@@ -22,9 +22,6 @@ On Ubuntu/Debian :
 ```
 $ sudo apt-get install libusb-dev
 ```
-### Hardware Requirements
-* A Digispark Attiny 85
-* A Duckyscript file 
 
 ## Different options of DigiDucky
 
