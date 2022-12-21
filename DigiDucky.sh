@@ -16,7 +16,7 @@ Tool3=`find / -type f -name 'arduino-cli' 2>/dev/null`
 
 if [ "$1" = "--help" -o "$1" = "-h" ]; then
     echo "======================================================================"
-    echo "[*] A Bash script that will convert a DuckyScript file into an arduino file, compile it and load it on a Digispark Attiny 85."
+    echo "[*] A Bash script that will convert a DuckyScript file into an arduino file, compile it and load it on a Digispark ATTiny85."
     echo "Recommended use : ./DigiDucky.sh -i "
     echo -e "\t-h, --help          This will display this message"
     echo -e "\t-i, --interactive   The classic way to launch the script"
